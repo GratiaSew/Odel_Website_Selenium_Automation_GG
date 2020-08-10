@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+    <test name="Command line test(failed)">
+        <classes>
+            <class name="com.odel.qa.testcases.MyAccountPageTest">
+                <methods>
+                    <include name="myLoyalty"/>
+                    <include name="returnAndRefund"/>
+                    <include name="saveChangedDetails"/>
+                    <include name="selectOrder"/>
+                    <include name="cancelChangedDetails"/>
+                    <include name="myWishlist"/>
+                    <include name="setUp"/>
+                    <include name="vouchers"/>
+                    <include name="tearDown"/>
+                </methods>
+            </class> <!-- com.odel.qa.testcases.MyAccountPageTest -->
+        </classes>
+    </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
